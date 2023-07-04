@@ -1,0 +1,10 @@
+# Cached python and venv files
+.venv/
+__pycache__/
+
+# VS code user settings
+.vscode/
+
+# Output
+screenshots/
+captured_screenshots.gif
