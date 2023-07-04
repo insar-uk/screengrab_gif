@@ -25,8 +25,8 @@ class MainWindow(QMainWindow):
         self.ui_elements.stop_button.clicked.connect(self.stop_screenshots)
         self.ui_elements.change_folder_button.clicked.connect(self.change_folder)
         self.ui_elements.open_folder_button.clicked.connect(lambda: os.startfile(self.settings.screenshot_folder))
-        self.ui_elements.delete_screenshots_button.clicked.connect(self.delete_screenshots)
-        self.ui_elements.create_gif_button.clicked.connect(self.create_gif)
+        # self.ui_elements.delete_screenshots_button.clicked.connect(self.delete_screenshots)
+        # self.ui_elements.create_gif_button.clicked.connect(self.create_gif)
         self.ui_elements.change_extent_button.clicked.connect(lambda value: self.change_extent())
 
         # Track the mouse position
@@ -52,7 +52,7 @@ class MainWindow(QMainWindow):
         self.layout.addWidget(self.ui_elements)
 
         # Resize the window to fit the controls
-        self.resize(700, 500)
+        self.resize(650, 410)
 
     def start_capture_extent(self):
         # Resize the screen extent grabber layout to cover the entire screen

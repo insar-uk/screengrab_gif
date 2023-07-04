@@ -1,6 +1,8 @@
 # screengrab_gif
 A bit like windows snipping tool, but captures gifs.
 
+Only works on Windows currently, to convert to other platforms only screenshotter.py needs to be changed.
+
 ## Installation
 ``` bash
 pip install screen-grab
@@ -11,7 +13,7 @@ If that doesn't work...
 # Set up a virtual environment
 mkdir .venv
 cd .venv
-path/to/python.exe -m venv .
+path\to\python.exe -m venv .
 # Activate the virtual environment
 .\Scripts\Activate.ps1
 # You may need to mess about with permissions, but this is more general virtual environment stuff
@@ -20,7 +22,7 @@ pip install pywin32
 pip install imageio
 pip install PyQt5
 # Run the program
-path/to/python.exe -m screen_grab
+path\to\python.exe -m screen_grab
 ```
 
 <!-- images -->
